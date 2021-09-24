@@ -3,9 +3,7 @@
 In order to execute the installers build MojoSetup:
 
 ```
-hg clone https://hg.icculus.org/icculus/mojosetup
-wget https://liflg.org/fix_translations.patch
-patch mojosetup/scripts/localization.lua fix_translations.patch
+git clone https://github.com/icculus/mojosetup.git
 mkdir mojosetup/build
 cd mojosetup/build
 cmake ..
